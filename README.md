@@ -103,6 +103,12 @@ This project represents a baseline U-Net implementation. Some limitations includ
 - Google Colab
 - KaggleHub
 
+## Author
+
+Bensu Varol  
+MSc Computer Engineering Student  
+Interested in medical image analysis, deep learning, computer vision, explainable AI, and healthcare AI.
+
 ## Repository Structure
 
 ```text
