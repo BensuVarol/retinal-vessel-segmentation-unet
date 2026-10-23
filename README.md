@@ -35,7 +35,6 @@ The files in `test/mask` are field-of-view (FOV) masks, not vessel annotations, 
 
 | Metric or setting | Value |
 |---|---:|
-| Validation images | **4** |
 | Validation Global Dice | **0.7330** |
 | Validation Global IoU | **0.5785** |
 | Validation Mean image Dice | 0.7308 |
