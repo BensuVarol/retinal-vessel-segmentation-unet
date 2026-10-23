@@ -179,3 +179,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Local retinal segmentation data, checkpoints, generated runs, and credentials
+/data/
+/DRIVE/
+/runs/
+/models/
+/retinal-vessel-segmentation-unet/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.zip
+.env.*
+kaggle.json
