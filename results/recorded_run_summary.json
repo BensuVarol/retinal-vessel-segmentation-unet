@@ -1,0 +1,174 @@
+{
+  "provenance": {
+    "source_filename": "Retinal_Vessel_Segmentation_UNet_.ipynb",
+    "source_notebook_sha256": "8b40a47bf09df47f7caa7a5ee9298075f85c3ff97ecaddeb14a51f1c940d1119",
+    "repository_notebook": "notebook/retinal_vessel_segmentation_unet.ipynb",
+    "notebook_copy": "byte-for-byte copy of the user-provided executed notebook",
+    "run_id": "20261022T234750_550523Z",
+    "extraction": "Read from saved notebook outputs; training and inference were not rerun for this repository update.",
+    "precision": "Validation and threshold CSV values retain six decimal places displayed by pandas. Epoch log values retain four displayed decimal places. Original full-precision runtime JSON/CSV files were not supplied."
+  },
+  "configuration": {
+    "seed": 42,
+    "image_size": [
+      512,
+      512
+    ],
+    "batch_size": 2,
+    "epochs": 15,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "loss": "BCEWithLogitsLoss + batch-global soft Dice loss"
+  },
+  "dataset": {
+    "name": "DRIVE",
+    "handle": "andrewmvd/drive-digital-retinal-images-for-vessel-extraction",
+    "split_counts": {
+      "train": 16,
+      "validation": 4,
+      "official_test": 20
+    },
+    "split_ids": {
+      "train": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "validation": [
+        "25",
+        "26",
+        "35",
+        "40"
+      ],
+      "official_test": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    }
+  },
+  "selected_checkpoint": {
+    "epoch": 15,
+    "selection_metric": "validation Global Dice at fixed threshold 0.50"
+  },
+  "validation": {
+    "n_images": 4,
+    "threshold": 0.5,
+    "global_dice_displayed": 0.732961,
+    "global_iou_displayed": 0.578483,
+    "mean_dice_displayed": 0.730824,
+    "mean_iou_displayed": 0.576232,
+    "global_dice_4dp": "0.7330",
+    "global_iou_4dp": "0.5785",
+    "selection_scope": "The same four validation images selected the checkpoint and threshold.",
+    "pixel_scope": "All pixels of resized 512x512 images; no FOV restriction; not an official DRIVE benchmark score."
+  },
+  "official_test": {
+    "n_images": 20,
+    "predictions_generated": 20,
+    "vessel_ground_truth_available": false,
+    "global_dice": null,
+    "global_iou": null,
+    "status": "unavailable_no_vessel_ground_truth",
+    "fov_masks_are_vessel_labels": false,
+    "official_server_submission": "Prediction ZIP prepared in the recorded run, not submitted.",
+    "artifacts_in_this_repository": "Embedded preview for four fixed test IDs; individual 20 prediction masks and ZIP were listed by the notebook but not supplied separately."
+  },
+  "saved_notebook_checks": {
+    "executed_code_cells": 19,
+    "error_outputs": 0,
+    "checkpoint_reload_max_absolute_probability_difference": 0.0
+  },
+  "embedded_figures": [
+    {
+      "path": "results/input_pairs.png",
+      "source_cell_index": 4,
+      "source_output_index": 1,
+      "mime_type": "image/png",
+      "bytes": 542570,
+      "dimensions": [
+        1169,
+        593
+      ],
+      "sha256": "47da07441f370a9481d39eb8be08ccd175e2b73688838237d82444702c3f2ca5"
+    },
+    {
+      "path": "results/training_validation_loss.png",
+      "source_cell_index": 16,
+      "source_output_index": 0,
+      "mime_type": "image/png",
+      "bytes": 43239,
+      "dimensions": [
+        790,
+        490
+      ],
+      "sha256": "6c217689cdfa26670b7db94a46141b33d6d080a960ebaf2b5e240abc9ba50052"
+    },
+    {
+      "path": "results/validation_dice_iou.png",
+      "source_cell_index": 16,
+      "source_output_index": 1,
+      "mime_type": "image/png",
+      "bytes": 45241,
+      "dimensions": [
+        790,
+        490
+      ],
+      "sha256": "7e5c93e8b52c53fb19967b70512b96d024fb1628f29ee9a195decd1aa598a341"
+    },
+    {
+      "path": "results/sample_predictions/sample_predictions.png",
+      "source_cell_index": 16,
+      "source_output_index": 2,
+      "mime_type": "image/png",
+      "bytes": 2214497,
+      "dimensions": [
+        1976,
+        1590
+      ],
+      "sha256": "e10b8c2c439af0d376393c05c02bd782307af28b912f79d4ae69d03ba9bf332f"
+    },
+    {
+      "path": "results/test_predictions.png",
+      "source_cell_index": 17,
+      "source_output_index": 0,
+      "mime_type": "image/png",
+      "bytes": 1958176,
+      "dimensions": [
+        1966,
+        1589
+      ],
+      "sha256": "9c9a90c78e8549c67bf2838be82c4d4ad051b859177bd15c8a44cc856c2cbdcd"
+    }
+  ]
+}

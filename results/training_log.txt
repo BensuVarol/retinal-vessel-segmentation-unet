@@ -1,0 +1,16 @@
+Epoch [01/15] | Train loss 1.3382 | Val loss 1.4826 | Val Global Dice 0.0000 | Val Global IoU 0.0000 | Val Mean Dice 0.0000 | saved best
+Epoch [02/15] | Train loss 1.2090 | Val loss 1.4498 | Val Global Dice 0.0000 | Val Global IoU 0.0000 | Val Mean Dice 0.0000
+Epoch [03/15] | Train loss 1.1226 | Val loss 1.3930 | Val Global Dice 0.0000 | Val Global IoU 0.0000 | Val Mean Dice 0.0000
+Epoch [04/15] | Train loss 1.0570 | Val loss 1.3297 | Val Global Dice 0.0039 | Val Global IoU 0.0019 | Val Mean Dice 0.0038 | saved best
+Epoch [05/15] | Train loss 1.0242 | Val loss 1.2592 | Val Global Dice 0.0802 | Val Global IoU 0.0418 | Val Mean Dice 0.0721 | saved best
+Epoch [06/15] | Train loss 1.0013 | Val loss 1.1839 | Val Global Dice 0.2632 | Val Global IoU 0.1516 | Val Mean Dice 0.2221 | saved best
+Epoch [07/15] | Train loss 0.9801 | Val loss 1.0978 | Val Global Dice 0.5025 | Val Global IoU 0.3356 | Val Mean Dice 0.4939 | saved best
+Epoch [08/15] | Train loss 0.9609 | Val loss 1.0512 | Val Global Dice 0.5436 | Val Global IoU 0.3732 | Val Mean Dice 0.5148 | saved best
+Epoch [09/15] | Train loss 0.9476 | Val loss 0.9985 | Val Global Dice 0.6226 | Val Global IoU 0.4520 | Val Mean Dice 0.6054 | saved best
+Epoch [10/15] | Train loss 0.9353 | Val loss 0.9613 | Val Global Dice 0.6881 | Val Global IoU 0.5245 | Val Mean Dice 0.6830 | saved best
+Epoch [11/15] | Train loss 0.9224 | Val loss 0.9252 | Val Global Dice 0.7135 | Val Global IoU 0.5547 | Val Mean Dice 0.7111 | saved best
+Epoch [12/15] | Train loss 0.9084 | Val loss 0.9163 | Val Global Dice 0.7169 | Val Global IoU 0.5588 | Val Mean Dice 0.7143 | saved best
+Epoch [13/15] | Train loss 0.8962 | Val loss 0.9087 | Val Global Dice 0.7247 | Val Global IoU 0.5683 | Val Mean Dice 0.7232 | saved best
+Epoch [14/15] | Train loss 0.8892 | Val loss 0.9123 | Val Global Dice 0.7243 | Val Global IoU 0.5678 | Val Mean Dice 0.7222
+Epoch [15/15] | Train loss 0.8775 | Val loss 0.8974 | Val Global Dice 0.7330 | Val Global IoU 0.5785 | Val Mean Dice 0.7308 | saved best
+Training complete in 2.61 minutes; best validation checkpoint: epoch 15.

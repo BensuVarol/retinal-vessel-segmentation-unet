@@ -1,0 +1,9 @@
+metric,value,status
+global_dice,,unavailable_no_vessel_ground_truth
+global_iou,,unavailable_no_vessel_ground_truth
+mean_dice,,unavailable_no_vessel_ground_truth
+mean_iou,,unavailable_no_vessel_ground_truth
+precision,,unavailable_no_vessel_ground_truth
+recall_sensitivity,,unavailable_no_vessel_ground_truth
+specificity,,unavailable_no_vessel_ground_truth
+pixel_accuracy,,unavailable_no_vessel_ground_truth
